@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.ggt{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.sect{
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: azure;
+    text-align: center;
+    border: 2px solid rgb(0, 166, 255)  ;
+    transition: transform 0.3s ease-in-out;
+}
+
+.sect:hover{
+    transform: scale(1.05);
+    box-shadow: #0080ff;
+}
+.sect h3{
+    font-size: small;
+    margin-bottom: 10px;
+    color: rgb(0, 49, 128);
+}
+
+.sect p{
+    margin-bottom: 20px;
+    color: rgb(0, 80, 136);
+}
+.icon{
+    width: 75px;
+    height: 70px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+header{
+    width: auto;
+    height: 125px;
+    background-color: #0080ff;
+}
+.rubik-mono-one-regular {
+  font-family: "Rubik Mono One", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+  color: white;
+}
+.pisk{
+    margin-left: 750px;
+}
+.poick{
+    width: 350px;
+    height: 35px;
+}
+.poisk{
+    height: 35px;
+    border: #0080ff;
+    background-color: rgb(97, 231, 255);
+}
+.iconify{
+    display: flex;
+    align-items: center; gap: 10px;
+}
+
+aside{
+    width: 350px;
+    height: 700px;
+    background-color: #ffffff;
+    border-right: 2px solid black ;
+    border-bottom: 2px solid black;
+}
+.navig{
+    height: 670px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+article{
+    display: flex;
+    justify-content: space-around;
+    width: 1500px;
+}
+.teg{
+    display: flex;
+    align-items: end;
+}
+.more{
+    text-decoration: none;
+    color: #ffffff;
+}
+.reg:hover{
+    transform: scale(1.05);
+    box-shadow: #33ff00;
+    transition: transform 0.3s ease-in-out;
+}
+header{
+    display: flex;
+    align-items: center;
+}
+.reg{
+    margin-right: 50px;
+}
+    </style>
+</head>
+<body>
+<header>
+    <div class="iconify" style=" margin-left: 25px;">
+        <img  class="icon" src="logos--shopify.svg">
+        <p style="margin: top 20px; left: 30px;" class="rubik-mono-one-regular">Your</p>
+        <form class="pisk">
+            <input class="poick" type="search" name="q" placeholder="Поиск">
+            <input class="poisk" type="submit" value="Найти">
+        </form>
+        <div class="reg">
+            <button style="border-radius: 10px; background-color: rgb(0, 179, 0); width: 10em; height: 3em; border: 0px;"><a style="text-decoration: none; color: white;" href="">Регистрация</a></button>
+        <div></div>
+</header>
+<main>
+<div style="display: flex; align-items: normal ">
+<aside class="navi">
+    <nav>
+        <div class="navig" style="display: flex; flex-direction: column;">
+            <div><button style="width: 25em; height: 5em; border: 0px; background-color: white;"><a style="text-decoration: none; font-size: 25px;" href="index.html">Главная</a></button></div>
+            <div><button style="width: 25em; height: 5em; border: 0px; background-color: white;"><a style="text-decoration: none; font-size: 25px;" href="">Товары</a></div></button>
+            <div><button style="width: 25em; height: 5em; border: 0px; background-color: white;"><a style="text-decoration: none; font-size: 25px;" href="">Топ бренды</a></div></button>
+            <div><button style="width: 25em; height: 5em; border: 0px; background-color: white;"><a style="text-decoration: none; font-size: 25px;" href="">Топ дня</a></div></button>
+            <div><button style="width: 25em; height: 5em; border: 0px; background-color: white;"><a style="text-decoration: none; font-size: 25px;" href="">О нас</a></div></button>
+        </div>
+    </nav>
+</aside>
+<article>
+    <section>
+        <div class="ggt" >
+             <div class="sect"style="margin-top: 150px">
+                <img src="photo_2024-11-22_16-54-31.jpg" style="height: 170px; width: 250px;" >
+                <h3>Колонка</h3>
+                <p>Портативная беспроводная Bluetooth колонка NDR-610 800Вт Для конференц зала или улицы</p>
+                <button style="width: 10em; height: 3em;background-color: #0080ff;"><a href="" class="more">Перейти</a></button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="ggt" >
+             <div class="sect"style="margin-top: 150px">
+                <img src="photo_2024-11-22_16-55-00.jpg" style="height: 170px; width: 250px;" >
+                <h3>Наушники</h3>
+                <p>HAVIT Wireless Bluetooth 4.1 Headphones& Wireless Headset Noise Cancelling 3D St</p>
+                <button style="width: 10em; height: 3em;background-color: #0080ff;"><a href="" class="more">Перейти</a></button>
+            </div>
+        </div>
+        <div class="teg" >
+            <div class="sect"style="">
+               <img src="Снимок экрана_24-11-2024_15368_aliexpress.ru.jpeg" style="height: 170px; width: 250px;" >
+               <h3>Realme</h3>
+               <p>Смартфон Realme GT7 Pro, 12/256ГБ, 12/512ГБ</p>
+               <button style="width: 10em; height: 3em; background-color: #0080ff;"><a href="" class="more">Перейти</a></button>
+           </div>
+       </div>
+    </section>
+</article>
+</div>
+</main>
+<footer>
+    <div>
+        <p>© Интернет-Магазин 1997—2024</p>
+        <p>Для магазинов</p>
+        <p>справка</p>
+        <p>Карта сайта</p>
+        <p>Контакты</p>
+    </div>
+</footer>
+</body>
+</html>
